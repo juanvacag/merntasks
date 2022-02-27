@@ -1,0 +1,22 @@
+npm i -D nodemon
+npm i express mongoose dotenv
+npm i bcryptjs
+npm i express-validator
+
+-----------   JWT = JSON WEB TOKEN   -----------
+Es un estándar cuyo fin es permitir compartir información entre distintas aplicaciones en un objeto JSON.
+dos aplicaciones web pueden compartir datos seguros utilizando JWT, ya que verifican la autenticidad del JSON.
+JWT puede ser utilizado en cualquier framework ó libreria.
+
+¿Cuando utilizar JWT?
+
+Autorización: Es el mas comun, cuando el usuario ha sido logueado se almacena el JWT y se verifica para que pueda acceder a las distintas rutas de la aplicación, servicios o recursos que permite el Token.
+
+Intercambio de información: Son seguros para compartir datos entre aplicaciones, de esta forma te aseguras que los datos enviados  un servidor no seran interceptados.
+
+partes de un JWT
+Header, tipo de JWT y el algoritmo.
+Payload, información de la entidad y datos adicionales.
+Signature, verifica que el mensaje no ha cambiado en su transporte.
+
+npm i jsonwebtoken

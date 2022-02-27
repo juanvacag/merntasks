@@ -1,0 +1,28 @@
+¿Que es MERN?
+
+MongoDB
+Express
+React
+Node.js
+
+
+ventajas de MERN
+
+-. todo el codigo tanto de Frontend como Backend sera hecho con javascript.
+
+-. separacion de Frontend y Backend, conectado por JSON(independiente de la base de datos).
+
+-. NPM para las dependencias.
+
+-. el perfomance de Node.
+
+-. la velocidad de React.
+
+-. MERN no es un Framework.
+
+instalamos una dependencia para crear id, desde la consola teclear npm i -D uuid
+
+instalamos una dependencia para utulizar animaciones, desde la consola teclear npm install react-transition-group --save
+
+
+
